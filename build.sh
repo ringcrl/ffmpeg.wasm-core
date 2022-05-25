@@ -10,6 +10,8 @@ run() {
   done
 }
 
+cp $SCRIPT_ROOT/settings.js /data/github.com/emsdk/upstream/emscripten/src/settings.js
+
 run-all() {
   SCRIPTS=(
     # install dependencies
